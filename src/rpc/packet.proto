@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package RpcService;
+option go_package = "";
+
+service RpcService {
+  rpc Entrance (stream PacketStream) returns (stream DataResponse);
+}
+
+message PacketStream {
+  bytes  data = 1;
+  int32  length = 2;
+  string type = 3;
+  string tid=4;
+  int32  direction=5;
+  bool   is_alert=6;
+  int32  sid=7;
+  string classType=8;
+  string eMsg=9;
+}
+
+message DataResponse {
+  bool status=1;
+  string message = 2;
+}

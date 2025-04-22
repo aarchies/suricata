@@ -1,0 +1,48 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "DeBug_suricata",
+      "program": "${workspaceFolder}/src/.libs/suricata",
+      //"program": "/usr/local/bin/suricata",
+      "args": [
+        "--runmode",
+        "single",
+        "-i",
+        "eth0",
+        // "-r",
+        // "/root/bacnet1.pcap",
+        "-c",
+        "/root/suricata-7.0.5/suricata.yaml"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "preLaunchTask": "build_suricata"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/root/suricata-7.0.5/src",
+      "program": "/root/suricata-7.0.5/src/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
