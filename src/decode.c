@@ -799,14 +799,14 @@ inline int PacketSetData(Packet *p, const uint8_t *pktdata, uint32_t pktlen)
     if (is_line_no)
     {
         // Need match 14 + 98 + 51
-        if (pktlen <= 163)
+        if (pktlen <= 149)
         {
             return -1;
         }
 
         // First, skip the first 14 bytes of pktdata
-        pktdata += 14; // Move the pointer forward by 14 bytes
-        pktlen -= 14;  // Adjust pktlen to reflect the new length after skipping 14 bytes
+        // pktdata += 14; // Move the pointer forward by 14 bytes
+        // pktlen -= 14;  // Adjust pktlen to reflect the new length after skipping 14 bytes
 
         // Copy the next 51 bytes to the tid field
         memcpy(&(p->line_no), pktdata, 51); // Copy the 51 bytes to tid
