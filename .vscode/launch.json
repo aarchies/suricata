@@ -11,9 +11,9 @@
         "--runmode",
         "single",
         "-i",
-        "eth0",
+        "eth2",
         // "-r",
-        // "/root/bacnet1.pcap",
+        // "/root/pacp/ceshi.pcap",
         "-c",
         "/root/suricata-7.0.5/suricata.yaml"
       ],

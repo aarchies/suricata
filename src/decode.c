@@ -798,12 +798,13 @@ inline int PacketSetData(Packet *p, const uint8_t *pktdata, uint32_t pktlen)
 
     if (is_line_no)
     {
-        // Need match 14 + 98 + 51
+        // Need match 14 + 51 + 98
         if (pktlen <= 149)
         {
             return -1;
         }
 
+        // old mac area
         // First, skip the first 14 bytes of pktdata
         // pktdata += 14; // Move the pointer forward by 14 bytes
         // pktlen -= 14;  // Adjust pktlen to reflect the new length after skipping 14 bytes

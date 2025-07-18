@@ -1188,7 +1188,6 @@ void OutPutAlertPacket(const Packet *p, const PacketAlert *pa)
 
             GoInt isalert = 1;
             GoInt sid = pa->s->id;
-
             GoString class_type = {signature, strlen(signature)};
             GoString emsg = {category, strlen(category)};
 

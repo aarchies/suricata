@@ -723,7 +723,7 @@
 /* #undef PROFILING */
 
 /* Git revision */
-/* #undef REVISION */
+#define REVISION ba22eaf 2025-06-30
 
 /* Define to 1 if all of the C90 standard headers exist (not just the ones
    required in a freestanding environment). This macro is provided for

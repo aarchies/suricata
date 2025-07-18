@@ -27,7 +27,7 @@ uname -v = #1 SMP Tue Nov 5 00:21:55 UTC 2024
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
-PATH: /root/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli/
+PATH: /root/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli/
 PATH: /usr/local/sbin/
 PATH: /usr/local/bin/
 PATH: /usr/sbin/
@@ -48,15 +48,26 @@ PATH: /mnt/c/WINDOWS/System32/OpenSSH/
 PATH: /mnt/c/Program Files/dotnet/
 PATH: /mnt/c/Program Files/Git/cmd/
 PATH: /mnt/c/Program Files/CMake/bin/
-PATH: /mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/
 PATH: /mnt/c/ProgramData/chocolatey/bin/
-PATH: /mnt/c/Program Files/Docker/Docker/resources/bin/
-PATH: /mnt/e/protoc-29.0-win64/bin/
+PATH: /mnt/d/protoc-29.0-win64/bin/
 PATH: /mnt/c/Program Files/GitExtensions/
 PATH: /mnt/c/Program Files/TortoiseGit/bin/
 PATH: /mnt/c/Program Files/nodejs/
 PATH: /mnt/c/Users/a1372/AppData/Local/Programs/cursor/resources/app/bin/
-PATH: /mnt/e/57s/analyzer/include/lib/win/
+PATH: /mnt/d/object/57s/analyzer/include/lib/win/
+PATH: /mnt/d/Graphviz/bin/
+PATH: /mnt/c/WINDOWS/system32/
+PATH: /mnt/c/WINDOWS/
+PATH: /mnt/c/WINDOWS/System32/Wbem/
+PATH: /mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/
+PATH: /mnt/c/WINDOWS/System32/OpenSSH/
+PATH: /mnt/c/Users/a1372/sdk/go1.24.3/bin/
+PATH: /mnt/c/Program Files/Rancher Desktop/resources/resources/win32/bin/
+PATH: /mnt/c/Program Files/Rancher Desktop/resources/resources/win32/docker-cli-plugins/
+PATH: /mnt/c/Program Files/Rancher Desktop/resources/resources/linux/bin/
+PATH: /mnt/c/Program Files/Rancher Desktop/resources/resources/linux/docker-cli-plugins/
+PATH: /mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/
+PATH: /mnt/c/Program Files/Docker/Docker/resources/bin/
 PATH: /mnt/c/Users/a1372/AppData/Local/Microsoft/WindowsApps/
 PATH: /mnt/c/Users/a1372/AppData/Local/Programs/Microsoft VS Code/bin/
 PATH: /mnt/c/Users/a1372/sdk/go1.23.3/bin/
@@ -64,7 +75,9 @@ PATH: /mnt/c/msys64/ucrt64/bin/
 PATH: /mnt/c/Users/a1372/go/bin/
 PATH: /mnt/c/Users/a1372/AppData/Roaming/npm/
 PATH: /mnt/c/Users/a1372/AppData/Local/Programs/cursor/resources/app/bin/
-PATH: /mnt/e/utils/protoc-29.0-win64/bin/
+PATH: /mnt/d/utils/protoc-29.0-win64/bin/
+PATH: /mnt/c/Users/a1372/go/bin/
+PATH: /mnt/c/Users/a1372/go/bin/
 PATH: /snap/bin/
 PATH: /root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/
 

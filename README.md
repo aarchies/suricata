@@ -11,9 +11,9 @@ make CFLAGS="-I/usr/local/include" LDFLAGS="-L/usr/local/lib -lparser" -j10 && m
 ## function
 1. decode.c (PacketSetData).line.784-> line_no&&task_id
 
-2. detect.c (Detect).line.2170->OutPutDetectPacket
+2. detect.c (Detect).line.2170->OutPutDetectPacket // 正常流量
 
-3. output-json-alert.c (AlertOutPut).line.1228->OutPutAlertPacket
+3. output-json-alert.c (AlertOutPut).line.1228->OutPutAlertPacket // 异常流量
 
 ## generate the install package (.tar.gz)
 ./build.sh
